@@ -249,7 +249,8 @@ function Hero() {
 
         <div className="flex flex-wrap justify-center gap-3">
           <a
-            href="/docs/cv_santiago_jaimes.pdf"
+            href="/docs/CV_Santiago_Jaimes_Ingeniero_Software.pdf"
+            download="CV_Santiago_Jaimes_Ingeniero_Software.pdf"
             className="group inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3.5 font-semibold text-primary-foreground transition-all hover:-translate-y-0.5 hover:shadow-[var(--glow-mint)]"
           >
             <Download className="h-4 w-4" />
@@ -810,7 +811,7 @@ function ContactImpl() {
   const email = "santiagof11.0@outlook.com"
   const subject = encodeURIComponent('Hola desde tu portafolio');
   const body = encodeURIComponent('¡Hola! Me gustaría ponerme en contacto contigo.');
-  
+
   return (
     <section id="contacto" className="relative overflow-hidden rounded-3xl border border-primary/30 bg-card/40 p-8 backdrop-blur md:p-16">
       <div
